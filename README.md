@@ -26,12 +26,22 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+for each does not create a function and map does
 
 2. Explain the difference between a callback and a higher order function.
 
+higher order function takes a function as an argument
+a call back is a passed function that is used in another funciton
+
 3. What is closure?
+a function bundled together with references to its outside state
+
 
 4. Describe the four rules of the 'this' keyword.
+this is the global object
+this points to the object on which the function is called
+this to point to a certain value using call, apply or bind
+the new keyword constructs a new object, and this points it
 
 5. Why do we need super() in an extended class?
 
