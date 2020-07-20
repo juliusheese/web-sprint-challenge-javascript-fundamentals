@@ -44,6 +44,8 @@ this to point to a certain value using call, apply or bind
 the new keyword constructs a new object, and this points it
 
 5. Why do we need super() in an extended class?
+It is used to call the constructor of the parent class and to access the parent's properties and methods
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
