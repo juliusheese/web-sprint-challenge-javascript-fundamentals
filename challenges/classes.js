@@ -22,7 +22,19 @@ class CuboidMaker2 {
     }
   }
   
-  
+  class Cubemaker extends CuboidMaker2{
+    constructor (l,w,h){
+        super(CuboidMaker2)
+        }
+      volume  () {
+        return this.l*this.w*this.h;
+    }
+    
+    
+   surfaceArea  () {
+        return 2* (this.l*this.w+this.l*this.h+this.w*this.h);
+    }
+  }
  
    
   
